@@ -1,9 +1,11 @@
 package com.crisgon.main;
 
-public class DataPacket {
+import java.io.Serializable;
+
+public class DataPacket implements Serializable {
 
 	private static final String TAG = "DataPacket";
-	private static final long serialVersionUID = 26798444487259699L;
+	private static final long serialVersionUID = 1L;
 
 	private String ip;
 	private String nickname;
